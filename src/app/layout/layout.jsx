@@ -4,9 +4,9 @@ import { Footer } from "@widgets/footer";
 
 export const Layout = () => {
   return (
-    <div className="layout">
+    <div>
       <Header />
-      <main>
+      <main className="container bg-primary">
         <Outlet />
       </main>
       <Footer />
