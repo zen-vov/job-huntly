@@ -10,6 +10,7 @@ export default {
         lg: "20px",
         base: "18px",
         sm: "16px",
+        xs: "14px",
       },
       colors: {
         primary: "#4640DE",
@@ -19,6 +20,10 @@ export default {
         gray: "#D6DDEB",
         blue: "#26A4FF",
         black: "#202430",
+        lightYellow: "#eb85331a",
+        yellow: "#FFB836",
+        lightGreen: "#56cdad1a",
+        green: "#56CDAD",
       },
       backgroundColor: {
         primary: "#F8F8FD",
