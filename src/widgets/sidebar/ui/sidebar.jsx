@@ -6,6 +6,7 @@ import Profile from "@shared/ui/icons/profile/profile";
 import { Button } from "../../../shared/ui/button";
 import Exit from "@shared/ui/icons/exit/exit";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Sidebar = ({ className }) => {
   const [activeTab, setActiveTab] = React.useState("dashboard");
@@ -43,7 +44,9 @@ export const Sidebar = ({ className }) => {
       <div className="flex fixed flex-col py-[30px] bg-primary w-[272px] h-screen justify-between">
         <div>
           <div className="px-[30px]">
-            <Logo />
+            <Link to="/">
+              <Logo />
+            </Link>
           </div>
           <nav className="flex flex-col mt-[32px] cursor-pointer">
             <p

@@ -62,7 +62,7 @@ export const Profile = () => {
                   />
                 </div>
                 <Button
-                  label="Back to homepage"
+                  label="Edit Profile"
                   labelStyle="text-primary text-sm font-[700]"
                   className="border ml-[67px] border-[#CCCCF5] py-[12px] px-[24px]"
                 />
@@ -107,7 +107,10 @@ export const Profile = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-[8px] border border-gray mt-[24px] py-[28px] px-[24px]">
+              <div
+                onClick={handleExit}
+                className="flex cursor-pointer items-center gap-[8px] border border-gray mt-[24px] py-[28px] px-[24px]"
+              >
                 <Exit />
                 <Button
                   label="Logout"

@@ -5,6 +5,7 @@ import Refolut from "../../../shared/ui/icons/companies/revolut";
 import Blinklist from "../../../shared/ui/icons/companies/blinklist";
 import Classpass from "../../../shared/ui/icons/companies/classpass";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const JobCard = ({
   type = "first",
@@ -32,10 +33,12 @@ export const JobCard = ({
         >
           <div className="flex justify-between items-center">
             {img ? img : <Refolut />}
-            <Button
-              className="px-[8px] py-[4px] border border-primary text-primary text-sm"
-              label="Full Time"
-            />
+            <Link to="/signup">
+              <Button
+                className="px-[8px] py-[4px] border border-primary text-primary text-sm"
+                label="Full Time"
+              />
+            </Link>
           </div>
           <div>
             <p className="text-base text-second font-semibold">

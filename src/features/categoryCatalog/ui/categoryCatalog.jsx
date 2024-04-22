@@ -12,15 +12,15 @@ import { CategoryCard } from "../../../entities/categoryCard/ui/categoryCard";
 export const CategoryCatalog = () => {
   return (
     <div className="grid grid-cols-4 gap-[32px]">
-      <CategoryCard img={<Design />} />
-      <CategoryCard img={<Sales />} />
-      <CategoryCard img={<Marketing />} />
-      <CategoryCard img={<Finance />} />
+      <CategoryCard title="Design" img={<Design />} />
+      <CategoryCard title="Sales" img={<Sales />} />
+      <CategoryCard title="Marketing" img={<Marketing />} />
+      <CategoryCard title="Finance" img={<Finance />} />
 
-      <CategoryCard img={<Technology />} />
-      <CategoryCard img={<Engineering />} />
-      <CategoryCard img={<Business />} />
-      <CategoryCard img={<Human />} />
+      <CategoryCard title="Technology" img={<Technology />} />
+      <CategoryCard title="Engineering" img={<Engineering />} />
+      <CategoryCard title="Business" img={<Business />} />
+      <CategoryCard title="Human Resource" img={<Human />} />
     </div>
   );
 };

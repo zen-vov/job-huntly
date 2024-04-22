@@ -7,6 +7,7 @@ import { CategoryCatalog } from "../../../features/categoryCatalog/ui/categoryCa
 import { JobCard } from "../../../entities/jobCard/ui/jobCard";
 import Blinklist from "../../../shared/ui/icons/companies/blinklist";
 import Classpass from "../../../shared/ui/icons/companies/classpass";
+import { Link } from "react-router-dom";
 
 export const HomePage = () => {
   return (
@@ -22,11 +23,13 @@ export const HomePage = () => {
             className="border-b-[1px] w-[400px] border-b-gray pl-[2px] mt-[10px] pb-[8px]"
             placeholder="Job title or keyword"
           />
-          <Button
-            label="Search my job"
-            className="bg-button py-[12px] px-[24px]"
-            labelStyle="text-white"
-          />
+          <Link to={"/signup"}>
+            <Button
+              label="Search my job"
+              className="bg-button py-[12px] px-[24px]"
+              labelStyle="text-white"
+            />
+          </Link>
         </div>
         <p className="text-sm text-black mt-[16px]">
           Popular : UI Designer, UX Researcher, Android, Admin
@@ -38,7 +41,9 @@ export const HomePage = () => {
             Explore by <span className="text-blue">category</span>
           </h2>
           <div className="flex gap-[8px] items-center">
-            <Button className="text-sm text-primary" label="Show all jobs" />
+            <Link to="/signup">
+              <Button className="text-sm text-primary" label="Show all jobs" />
+            </Link>
             <Arrow />
           </div>
         </div>
@@ -53,7 +58,9 @@ export const HomePage = () => {
             Featured<span className="text-blue">jobs</span>
           </h2>
           <div className="flex gap-[8px] items-center">
-            <Button className="text-sm text-primary" label="Show all jobs" />
+            <Link to="/signup">
+              <Button className="text-sm text-primary" label="Show all jobs" />
+            </Link>
             <Arrow />
           </div>
         </div>
