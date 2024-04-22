@@ -1,5 +1,8 @@
 import React from "react";
 import { JobCard } from "../../../entities/jobCard/ui/jobCard";
+import Terraform from "@shared/ui/icons/companies/terraform";
+import Dropbox from "@shared/ui/icons/companies/dropbox";
+import Classpass from "@shared/ui/icons/companies/classpass";
 
 export const JobCatalog = () => {
   return (
@@ -187,14 +190,47 @@ export const JobCatalog = () => {
         </div>
         <div className="flex flex-col gap-[16px]">
           <JobCard type="second" time="full" tags="marketing design" />
+          <JobCard
+            img={<Terraform />}
+            type="second"
+            time="full"
+            tags="marketing design"
+            company="Terraform"
+          />
+          <JobCard
+            img={<Dropbox />}
+            type="second"
+            time="full"
+            tags="marketing design"
+            company="Dropbox"
+          />
+          <JobCard
+            img={<Classpass />}
+            type="second"
+            time="full"
+            tags="marketing design"
+          />
           <JobCard type="second" time="full" tags="marketing design" />
-          <JobCard type="second" time="full" tags="marketing design" />
-          <JobCard type="second" time="full" tags="marketing design" />
-          <JobCard type="second" time="full" tags="marketing design" />
-          <JobCard type="second" time="full" tags="marketing design" />
-          <JobCard type="second" time="full" tags="marketing design" />
-          <JobCard type="second" time="full" tags="marketing design" />
-          <JobCard type="second" time="full" tags="marketing design" />
+          <JobCard
+            img={<Terraform />}
+            type="second"
+            time="full"
+            tags="marketing design"
+            company="Terraform"
+          />
+          <JobCard
+            img={<Dropbox />}
+            type="second"
+            time="full"
+            tags="marketing design"
+            company="Dropbox"
+          />
+          <JobCard
+            img={<Classpass />}
+            type="second"
+            time="full"
+            tags="marketing design"
+          />
         </div>
       </div>
     </div>

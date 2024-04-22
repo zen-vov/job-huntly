@@ -6,6 +6,7 @@ import { SignInPage } from "../../pages/signIn/ui/signIn";
 import { SignUpPage } from "../../pages/signUp/ui/signUp";
 import { DashBoardPage } from "../../pages/dashboard";
 import { FindJobsPage } from "../../pages/findJobs";
+import { ProductPage } from "../../pages/product/ui/product";
 
 import "../styles/index.css";
 
@@ -23,6 +24,7 @@ export const AppRouter = () => {
         <Route path="/app/*" element={<Layout showHeaderFooter={false} />}>
           <Route path="dashboard" element={<DashBoardPage />} />
           <Route path="findjobs" element={<FindJobsPage />} />
+          <Route path="product" element={<ProductPage />} />
           <Route path="profile" element={<Profile />} />
         </Route>
       </Routes>

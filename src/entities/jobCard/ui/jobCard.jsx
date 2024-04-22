@@ -4,6 +4,7 @@ import { Button } from "../../../shared/ui/button/ui/button";
 import Refolut from "../../../shared/ui/icons/companies/revolut";
 import Blinklist from "../../../shared/ui/icons/companies/blinklist";
 import Classpass from "../../../shared/ui/icons/companies/classpass";
+import { useNavigate } from "react-router-dom";
 
 export const JobCard = ({
   type = "first",
@@ -16,6 +17,12 @@ export const JobCard = ({
   time,
   width = "580px",
 }) => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/app/product");
+  };
+
   return (
     <>
       {type === "first" && (
@@ -101,6 +108,7 @@ export const JobCard = ({
             </div>
             <div>
               <Button
+                onClick={handleNavigate}
                 className="w-[164px] px-[24px] py-[12px] border border-primary bg-button text-white font-bold text-sm"
                 label="Apply"
               />
