@@ -14,14 +14,14 @@ export const Header = () => {
           <World />
           <Link to={"/signin"}>
             <Button
-              label="Login"
+              label="Вход"
               className="py-[12px] px-[24px]"
               labelStyle="text-primary"
             />
           </Link>
           <Link to={"/signup"}>
             <Button
-              label="Sign Up"
+              label="Регистрация"
               className="bg-button py-[12px] px-[24px]"
               labelStyle="text-white"
             />

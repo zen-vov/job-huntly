@@ -1,4 +1,3 @@
-import React from "react";
 import { AuthForm } from "../../../features/authForm";
 
 export const SignInPage = () => {

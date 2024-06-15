@@ -1,4 +1,3 @@
-import React from "react";
 import GrayArrow from "@shared/ui/icons/arrow/grayArrow";
 import Design from "@shared/ui/icons/design/design";
 import { Link } from "react-router-dom";

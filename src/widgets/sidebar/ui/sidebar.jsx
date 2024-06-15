@@ -3,8 +3,6 @@ import Logo from "@shared/ui/icons/logo/logo";
 import Home from "@shared/ui/icons/home/home";
 import Search from "@shared/ui/icons/search/search";
 import Profile from "@shared/ui/icons/profile/profile";
-import { Button } from "../../../shared/ui/button";
-import Exit from "@shared/ui/icons/exit/exit";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
@@ -58,7 +56,7 @@ export const Sidebar = ({ className }) => {
               }`}
             >
               <Home />
-              Dashboard
+              Главная
             </p>
             <p
               onClick={() => handleTabClick("findjobs")}
@@ -69,7 +67,7 @@ export const Sidebar = ({ className }) => {
               }`}
             >
               <Search />
-              Find Jobs
+              Найти работу
             </p>
             <p
               onClick={() => handleTabClick("profile")}
@@ -80,7 +78,7 @@ export const Sidebar = ({ className }) => {
               }`}
             >
               <Profile />
-              My Public Profile
+              Мой профиль
             </p>
           </nav>
         </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import Design from "../../../shared/ui/icons/design/design";
 import Sales from "../../../shared/ui/icons/sales/sales";
 import Marketing from "../../../shared/ui/icons/marketing/marketing";

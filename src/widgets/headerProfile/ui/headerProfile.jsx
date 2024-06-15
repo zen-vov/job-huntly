@@ -1,4 +1,3 @@
-import React from "react";
 import World from "@shared/ui/icons/world/world";
 import { Button } from "@shared/ui/button";
 import { Link } from "react-router-dom";
@@ -13,7 +12,7 @@ export const HeaderProfile = ({ title }) => {
         </span>
         <Link to={"/"}>
           <Button
-            label="Back to homepage"
+            label="Вернуться на главную страницу"
             labelStyle="text-primary text-sm font-[700]"
             className="border border-[#CCCCF5] py-[12px] px-[24px]"
           />
