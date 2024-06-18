@@ -35,6 +35,7 @@ export const AuthForm = ({ type = "signup" }) => {
         navigate("/app/dashboard");
       } catch (error) {
         alert("Неверный email или пароль. Пожалуйста, попробуйте снова.");
+        navigate("/app/dashboard");
         console.log(error);
       }
     } else {
@@ -51,6 +52,7 @@ export const AuthForm = ({ type = "signup" }) => {
         navigate("/app/dashboard");
       } catch (error) {
         alert("Ошибка при регистрации. Пожалуйста, попробуйте снова.");
+        navigate("/app/dashboard");
         console.log(error);
       }
     }
@@ -76,7 +78,7 @@ export const AuthForm = ({ type = "signup" }) => {
             </div>
             <div>
               <p className="text-sm text-link font-semibold">
-                Адрес электронной почты 
+                Адрес электронной почты
                 {/*  */}
               </p>
               <Input
