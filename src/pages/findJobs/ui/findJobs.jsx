@@ -7,6 +7,7 @@ import { JobCatalog } from "../../../features/jobCatalog/ui/jobCatalog";
 
 export const FindJobsPage = () => {
   return (
+    // 
     <div className="w-full h-full">
       <HeaderProfile title="Поиск работы" />
       <div className="container-2">

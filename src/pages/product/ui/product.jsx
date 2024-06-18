@@ -5,6 +5,7 @@ import Check from "../../../shared/ui/icons/check/check";
 
 export const ProductPage = () => {
   return (
+    // 
     <div className="w-full h-full">
       <HeaderProfile title="Описание вакансии" />
       <div className="container-2">

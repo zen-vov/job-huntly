@@ -76,7 +76,8 @@ export const AuthForm = ({ type = "signup" }) => {
             </div>
             <div>
               <p className="text-sm text-link font-semibold">
-                Адрес электронной почты
+                Адрес электронной почты 
+                {/*  */}
               </p>
               <Input
                 name="email"

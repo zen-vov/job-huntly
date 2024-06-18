@@ -15,6 +15,7 @@ export const CategoryCard = ({ img, title, subtitle }) => {
             {subtitle || "235 jobs available"}
           </p>
           <GrayArrow />
+          {/*  */}
         </div>
       </div>
     </Link>

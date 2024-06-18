@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 
 export const HomePage = () => {
   return (
+
+    // 
     <div className="container">
       <section className="pt-[80px] pb-[100px]">
         <Title />
